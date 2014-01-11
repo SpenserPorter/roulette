@@ -2,7 +2,7 @@ Notfunny::Application.routes.draw do
   get "welcome/index"
   root 'welcome#index'
 
-  get '/roulette', to: 'roulette#roulette'
+  get '/roulette', to: 'roulette#new'
   post '/roulette', to: 'roulette#roulette'
 
   # Example of regular route:
