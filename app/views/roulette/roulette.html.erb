@@ -1,0 +1,7 @@
+<h2>This may or may not be a crude approximation of a Roulette game <h2>
+  <%= form_tag do %>
+  Pick your number <%= text_field_tag(:number, @number) %> <br>
+  Wager?           <%= text_field_tag(:wager, @wager) %>
+  <%= submit_tag %>
+<% end %>
+<%= @out %>
